@@ -22,6 +22,7 @@ int main()
             cout << "Не корректные значения!!!\n";
             rightInput = true;
         }
+        else rightInput = false;
     } while (rightInput);
 
     if (length % 2 != 0 && simbol % 2 != 0) length -= 2;
